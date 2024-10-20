@@ -22,19 +22,19 @@ namespace ConsoleApp
                 {
                     case "1":
                         DataType.Display();
-                        end;
+1                        break;
                     case "2":
                         MathOperations.Perform();
-                        end;
+                        break;
                     case "3":
                         ConditionalStatements.CheckNumber();
-                        end;
+                        break;
                     case "4":
                         LoopDemonstrations.DemonstrateLoops();
-                        end;
+                        break;
                     case "5":
                         Console.WriteLine("Thank you for using the application! Goodbye!");
-                        end;
+                        break;
                     default:
                         Console.WriteLine("Invalid choice! Please select a valid option.");
                         break;
